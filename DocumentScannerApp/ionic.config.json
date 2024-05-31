@@ -1,5 +1,7 @@
 {
   "name": "DocumentScannerApp",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
