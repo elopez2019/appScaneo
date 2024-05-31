@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Scanner Documento</ion-title>
+  </ion-toolbar>
+</ion-header>
+<br><br>
+<ion-content style="text-align: center;">
+  <ion-button (click)="captureImage()">Capturar Imagen</ion-button>
+  <ion-textarea [(ngModel)]="scannedText" placeholder="Scanned text will appear here"></ion-textarea>
+  <ion-button (click)="generatePDF()">Generate PDF</ion-button>
+</ion-content>
